@@ -48,11 +48,7 @@ import com.squareup.picasso.Picasso;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-/**
- * HW09-A
- * Group#31
- * Created by Priyank and William
- */
+
 import static java.lang.System.load;
 /**
  * Created by priyank Verma
@@ -290,13 +286,7 @@ public class UserActivity extends AppCompatActivity {
                         i.putExtra("User", u);
                         i.putExtra("SEND", id);
                         startActivity(i);
-                        /*for(int k=0;k<list.size();k++){
-                            if(id.equals(list.get(k).getUserid())){
-                                Log.d("gettingSomething", list.get(k).toString());
-                            }
-
-                        }*/
-
+                      
                     }
                 });
             }
