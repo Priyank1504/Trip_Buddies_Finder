@@ -12,7 +12,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
@@ -30,7 +29,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -51,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
         setTitle("Trip");
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken("540993086777-gkh2n9ue23djg6gs2btepkp23euda4bj.apps.googleusercontent.com")
-                /*.requestIdToken(MainActivity.this.getResources()
-                        .getString(R.string.default_web_client_id))*/
                 .requestEmail()
                 .build();
 
