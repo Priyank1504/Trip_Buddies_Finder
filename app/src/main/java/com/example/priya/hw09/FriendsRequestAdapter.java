@@ -17,18 +17,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
-
 import java.io.File;
 import java.util.ArrayList;
-
-/**
- * Created by priya on 4/16/2017.
- */
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
