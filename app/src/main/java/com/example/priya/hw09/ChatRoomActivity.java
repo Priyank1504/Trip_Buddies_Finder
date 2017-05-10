@@ -27,11 +27,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-/**
- * HW09-A
- * Group#31
- * Created by Priyank and William
- */
+
 import java.util.ArrayList;
 import java.util.Calendar;
 /**
@@ -247,12 +243,6 @@ public class ChatRoomActivity extends AppCompatActivity {
 
             }
         });
-
-
-
-
-
-
     }
     Uri uri_global;
     @Override
