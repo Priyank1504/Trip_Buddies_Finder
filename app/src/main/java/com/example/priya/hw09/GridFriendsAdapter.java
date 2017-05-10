@@ -20,24 +20,17 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.media.MediaPlayer;
 import android.widget.Toast;
-
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
-
 import static android.R.drawable.ic_media_play;
 
-/**
- * HW09-A
- * Group#31
- * Created by Priyank Verma and Henry DeJong
- */
+
 public class GridFriendsAdapter extends RecyclerView.Adapter<GridFriendsAdapter.ViewHolder> {
     private List<User> list;
     SharedPreferences sharedpreferences;
@@ -138,7 +131,5 @@ public class GridFriendsAdapter extends RecyclerView.Adapter<GridFriendsAdapter.
         }
 
     }
-
-
 }
 
