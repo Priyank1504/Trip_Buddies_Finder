@@ -47,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setTitle("Trip");
+        
+        /** Google Sign In**/
+        
+        
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken("540993086777-gkh2n9ue23djg6gs2btepkp23euda4bj.apps.googleusercontent.com")
                 .requestEmail()
@@ -76,6 +80,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+         /** Firebase Authentication and Sign In**/
+        
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(FirebaseAuth firebaseAuth) {
